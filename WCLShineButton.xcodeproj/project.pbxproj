@@ -21,7 +21,11 @@
 		9773F94E1E547C640011CBEF /* WCLShineClickLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9773F94D1E547C640011CBEF /* WCLShineClickLayer.swift */; };
 		9773F9501E547C750011CBEF /* WCLShineBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9773F94F1E547C750011CBEF /* WCLShineBundle.swift */; };
 		9773F9521E547C8F0011CBEF /* WCLShineAngleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9773F9511E547C8F0011CBEF /* WCLShineAngleLayer.swift */; };
-		9773F9541E547CAC0011CBEF /* WCLShineButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9773F9531E547CAC0011CBEF /* WCLShineButton.bundle */; };
+		B19856D827F727C00020F6DF /* Bundle+Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19856D727F727C00020F6DF /* Bundle+Module.swift */; };
+		B1F251B627F7254E00CB15A0 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F251B227F7254E00CB15A0 /* heart.png */; };
+		B1F251B727F7254E00CB15A0 /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F251B327F7254E00CB15A0 /* like.png */; };
+		B1F251B827F7254E00CB15A0 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F251B427F7254E00CB15A0 /* star.png */; };
+		B1F251B927F7254E00CB15A0 /* smile.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F251B527F7254E00CB15A0 /* smile.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,7 +59,11 @@
 		9773F94D1E547C640011CBEF /* WCLShineClickLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLShineClickLayer.swift; sourceTree = "<group>"; };
 		9773F94F1E547C750011CBEF /* WCLShineBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLShineBundle.swift; sourceTree = "<group>"; };
 		9773F9511E547C8F0011CBEF /* WCLShineAngleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLShineAngleLayer.swift; sourceTree = "<group>"; };
-		9773F9531E547CAC0011CBEF /* WCLShineButton.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WCLShineButton.bundle; sourceTree = "<group>"; };
+		B19856D727F727C00020F6DF /* Bundle+Module.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Module.swift"; sourceTree = "<group>"; };
+		B1F251B227F7254E00CB15A0 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = heart.png; path = Resources/heart.png; sourceTree = "<group>"; };
+		B1F251B327F7254E00CB15A0 /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = like.png; path = Resources/like.png; sourceTree = "<group>"; };
+		B1F251B427F7254E00CB15A0 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star.png; path = Resources/star.png; sourceTree = "<group>"; };
+		B1F251B527F7254E00CB15A0 /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smile.png; path = Resources/smile.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +129,11 @@
 		9773F93E1E547C060011CBEF /* WCLShineButton */ = {
 			isa = PBXGroup;
 			children = (
-				9773F9531E547CAC0011CBEF /* WCLShineButton.bundle */,
+				B1F251B227F7254E00CB15A0 /* heart.png */,
+				B1F251B327F7254E00CB15A0 /* like.png */,
+				B1F251B527F7254E00CB15A0 /* smile.png */,
+				B1F251B427F7254E00CB15A0 /* star.png */,
+				B19856D727F727C00020F6DF /* Bundle+Module.swift */,
 				9773F94F1E547C750011CBEF /* WCLShineBundle.swift */,
 				9773F94D1E547C640011CBEF /* WCLShineClickLayer.swift */,
 				9773F9511E547C8F0011CBEF /* WCLShineAngleLayer.swift */,
@@ -241,7 +253,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9773F9541E547CAC0011CBEF /* WCLShineButton.bundle in Resources */,
+				B1F251B727F7254E00CB15A0 /* like.png in Resources */,
+				B1F251B627F7254E00CB15A0 /* heart.png in Resources */,
+				B1F251B927F7254E00CB15A0 /* smile.png in Resources */,
+				B1F251B827F7254E00CB15A0 /* star.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +279,7 @@
 				9773F9501E547C750011CBEF /* WCLShineBundle.swift in Sources */,
 				9773F94A1E547C3C0011CBEF /* WCLShineParams.swift in Sources */,
 				9773F94C1E547C4D0011CBEF /* WCLShineLayer.swift in Sources */,
+				B19856D827F727C00020F6DF /* Bundle+Module.swift in Sources */,
 				9773F9481E547C290011CBEF /* WCLShineButton.swift in Sources */,
 				9773F9521E547C8F0011CBEF /* WCLShineAngleLayer.swift in Sources */,
 				9773F94E1E547C640011CBEF /* WCLShineClickLayer.swift in Sources */,

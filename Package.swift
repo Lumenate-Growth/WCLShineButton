@@ -20,9 +20,18 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "WCLShineButton",
-            dependencies: []),
+            dependencies: [],
+            exclude: ["Bundle+Module.swift"], // exclude as this is auto-generated in SPM
+            resources: [
+                .copy("Resources")
+            ],
+            swiftSettings: [
+                .define("SPM")
+            ]
+        ),
         .testTarget(
             name: "WCLShineButtonTests",
-            dependencies: ["WCLShineButton"]),
+            dependencies: ["WCLShineButton"]
+        ),
     ]
 )
