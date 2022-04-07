@@ -23,7 +23,7 @@ let package = Package(
             dependencies: [],
             exclude: ["Bundle+Module.swift"], // exclude as this is auto-generated in SPM
             resources: [
-                .copy("Resources")
+                .copy("Images")
             ],
             swiftSettings: [
                 .define("SPM")

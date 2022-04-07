@@ -60,10 +60,10 @@
 		9773F94F1E547C750011CBEF /* WCLShineBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLShineBundle.swift; sourceTree = "<group>"; };
 		9773F9511E547C8F0011CBEF /* WCLShineAngleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLShineAngleLayer.swift; sourceTree = "<group>"; };
 		B19856D727F727C00020F6DF /* Bundle+Module.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Module.swift"; sourceTree = "<group>"; };
-		B1F251B227F7254E00CB15A0 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = heart.png; path = Resources/heart.png; sourceTree = "<group>"; };
-		B1F251B327F7254E00CB15A0 /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = like.png; path = Resources/like.png; sourceTree = "<group>"; };
-		B1F251B427F7254E00CB15A0 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star.png; path = Resources/star.png; sourceTree = "<group>"; };
-		B1F251B527F7254E00CB15A0 /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smile.png; path = Resources/smile.png; sourceTree = "<group>"; };
+		B1F251B227F7254E00CB15A0 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = heart.png; path = Images/heart.png; sourceTree = "<group>"; };
+		B1F251B327F7254E00CB15A0 /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = like.png; path = Images/like.png; sourceTree = "<group>"; };
+		B1F251B427F7254E00CB15A0 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star.png; path = Images/star.png; sourceTree = "<group>"; };
+		B1F251B527F7254E00CB15A0 /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smile.png; path = Images/smile.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
